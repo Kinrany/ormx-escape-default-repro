@@ -1,0 +1,10 @@
+[package]
+name = "ormx-escape-default-repro"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+
+[dependencies]
+ormx = { version = "0.10.0", features = ["mysql"] }
+sqlx = { version = "0.5.9", features = ["macros", "mysql", "offline", "runtime-tokio-rustls"] }
