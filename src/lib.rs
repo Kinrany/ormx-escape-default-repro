@@ -4,4 +4,5 @@ struct NewTable {
     #[ormx(default)]
     id: i32,
     somefield: String,
+    default: String,
 }
